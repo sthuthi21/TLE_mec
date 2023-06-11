@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "arial";
+
+    
+}
+
+h1{
+    font-family: "helvetica";
+    text-align: center;
+    color: rgb(255, 255, 255,0.8);
+}
+
+
+.container{
+    width: 900;
+    height: 610;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+
+}
+.box1{
+    width: 400px;
+    height: 610px;
+    background:rgb(255, 255, 255,0.75);
+    border-color: black;
+    border-width: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    
+}
+
+.modelTitle1{
+    width: 250px;
+    height: 70px;
+    text-align: center;
+}
+#ihrd{
+    font-size: 15px;
+    text-align: center;
+}
+
+.completeTitle1{
+    height: 70px;
+    display: flex;
+    
+}
+
+.photo{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.basicdetail{
+    height: 180px;
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+.college{
+    margin-left: 40px;
+    font-size: 22px;
+
+}
+#principal{
+    text-align: right;
+    font-size: 23px;
+    margin-right: 39px;
+}
+
+.box2{
+    width: 400px;
+    height: 610px;
+    background:rgb(255, 255, 255,0.8);
+    border-color: black;
+    border-width: 10px;
+    border-radius: 25px;
+}
+
+img[src*="mec"]{
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+    
+}
+
+img[src*="ihrd"]{
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    
+}
+
+.admnno{
+    margin-top: 60px;
+    
+
+}
+
+#admnno{
+    font-size: 25px;
+    text-align: right;
+    margin-right: 40px;
+    
+}
+
+.details{
+    font-size: 22px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 35px;
+    display: flex;
+}
+
+.spacing{
+    margin-bottom: 10px;
+}
+.space{
+    margin-top: 150px;
+    margin-bottom: 10px;
+
+}
+.qrcode{
+    margin-left: 50px;
+    margin-top: -130px;
+    margin-bottom: 50px;
+}
+
+
