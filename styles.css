@@ -24,6 +24,14 @@ h1{
     
 
 }
+@media (max-width: 768px) {
+    .container {
+      flex-direction: column; /* Top and bottom in mobile mode */
+    }
+    .box1, .box2 {
+        margin-bottom: 10px; /* Add space between divs */
+      }
+  }
 .box1{
     width: 400px;
     height: 610px;
